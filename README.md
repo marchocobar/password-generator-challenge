@@ -33,6 +33,6 @@ Javascript
 
 ## Usage
 
-![Screenshot of deployed password generator]()
+![Screenshot of deployed password generator](Image/Screen%20Shot%202022-09-03%20at%2011.49.16%20AM.png)
 
-![View Website Here] ()
+![View Website Here] (https://marchocobar.github.io/password-generator-challenge/)
