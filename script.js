@@ -6,6 +6,8 @@ var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
 
 var generatePassword = function () {
   var newPassword = ""
+  
+  //User prompts for password criteria
   var userLength = prompt("How long would you like the password? Choose a number between 8 and 128.");
 
   if (!userLength) {
@@ -22,7 +24,8 @@ var generatePassword = function () {
     var userUppercase = confirm("Would you like uppercase letters?");
 
     var userLowercase = confirm("Lowercase?");
-    
+
+    //for loop to integrate the user's criteria options into the genterator
     for (var i = 0; i < userLength; i++) {
 
 
